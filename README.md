@@ -5,3 +5,6 @@
 •	I set headless in the test base file when we run the testNG.xmal file stakeholders cannot see the application bot in the console code will be run
 •	I using extent report for I used listener class
 
+
+Run the TestNG.XML file which contains all testcasess
+
