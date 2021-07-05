@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackBase">
+<listeners>
+		<listener
+			class-name="com.qa.assignment.Listners.ExtentReporterNGListener" />
+	</listeners>
+  <test thread-count="5" name="TestBackBase">
+    <classes>
+      <class name="com.qa.assignment.Home.HomeTest"/> 
+      	<class name="com.qa.assignment.Home.BaseUserinfoTest"/>
+       <class name="com.qa.assignment.article.ArticleTest"/>
+      <class name="com.qa.assignment.article.DeleteCommentTest"/>
+      <class name="com.qa.assignment.article.EditorTest"/>
+      <class name="com.qa.assignment.settings.SettingsTest"/>
+      <class name="com.qa.assignment.Home.ListofArticleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

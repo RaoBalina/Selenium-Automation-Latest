@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BackBase]">
+  <listeners>
+    <listener class-name="com.qa.assignment.Listners.ExtentReporterNGListener"/>
+  </listeners>
+  <test thread-count="5" name="TestBackBase(failed)">
+    <classes>
+      <class name="com.qa.assignment.Home.ListofArticleTest">
+        <methods>
+          <include name="TestListofArticles"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.assignment.Home.ListofArticleTest -->
+      <class name="com.qa.assignment.article.ArticleTest">
+        <methods>
+          <include name="TestCreateAtrticle" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.assignment.article.ArticleTest -->
+      <class name="com.qa.assignment.Home.HomeTest">
+        <methods>
+          <include name="TestListofarticles"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.assignment.Home.HomeTest -->
+    </classes>
+  </test> <!-- TestBackBase(failed) -->
+</suite> <!-- Failed suite [BackBase] -->

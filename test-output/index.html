@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BackBase">
+              <span class="suite-name border-passed">BackBase</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BackBase">
+                    <span>D:\AssignmentTest1.1\testngold.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BackBase">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BackBase">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BackBase">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BackBase">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BackBase">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BackBase">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BackBase" class="hide-methods passed suite-BackBase"> (hide)</a> <!-- hide-methods passed suite-BackBase -->
+                      <a href="#" panel-name="suite-BackBase" class="show-methods passed suite-BackBase"> (show)</a> <!-- show-methods passed suite-BackBase -->
+                    </span>
+                    <div class="method-list-content passed suite-BackBase">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.article.ArticleTest" hash-for-method="TestCreateAtrticle(Education, Edycation system in India  , In india education system is very good , Education success)">TestCreateAtrticle(Education, Edycation system in India  , In india education system is very good , Education success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.article.DeleteCommentTest" hash-for-method="TestDeletecomment(Education, Edycation system in India  , In india education system is very good , Education success)">TestDeletecomment(Education, Edycation system in India  , In india education system is very good , Education success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.article.EditorTest" hash-for-method="TestEditor(Education, Edycation system in India  , In india education system is very good , Education success)">TestEditor(Education, Edycation system in India  , In india education system is very good , Education success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.Home.ListofArticleTest" hash-for-method="TestListofArticles">TestListofArticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.Home.BaseUserinfoTest" hash-for-method="TestListofTags">TestListofTags</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.Home.HomeTest" hash-for-method="TestListofTags">TestListofTags</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.Home.HomeTest" hash-for-method="TestListofarticles">TestListofarticles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.Home.ListofArticleTest" hash-for-method="TestPagenation">TestPagenation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BackBase" title="com.qa.assignment.settings.SettingsTest" hash-for-method="TestSettings">TestSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BackBase -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BackBase" class="panel BackBase">
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.Home.ListofArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestListofArticles">
+                  </a> <!-- TestListofArticles -->
+                  <span class="method-name">TestListofArticles</span>
+                  <em>
+(TestListofArticle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestPagenation">
+                  </a> <!-- TestPagenation -->
+                  <span class="method-name">TestPagenation</span>
+                  <em>
+(TestPagenation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.article.DeleteCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDeletecomment(Education, Edycation system in India  , In india education system is very good , Education success)">
+                  </a> <!-- TestDeletecomment(Education, Edycation system in India  , In india education system is very good , Education success) -->
+                  <span class="method-name">TestDeletecomment</span>
+                  <span class="parameters">(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                  <em>
+(TestDeleteComments)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.article.ArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestCreateAtrticle(Education, Edycation system in India  , In india education system is very good , Education success)">
+                  </a> <!-- TestCreateAtrticle(Education, Edycation system in India  , In india education system is very good , Education success) -->
+                  <span class="method-name">TestCreateAtrticle</span>
+                  <span class="parameters">(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                  <em>
+(TestCreateArticle)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.settings.SettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSettings">
+                  </a> <!-- TestSettings -->
+                  <span class="method-name">TestSettings</span>
+                  <em>
+(TestSettings)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.article.EditorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestEditor(Education, Edycation system in India  , In india education system is very good , Education success)">
+                  </a> <!-- TestEditor(Education, Edycation system in India  , In india education system is very good , Education success) -->
+                  <span class="method-name">TestEditor</span>
+                  <span class="parameters">(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                  <em>
+(TestEditor)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.Home.BaseUserinfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestListofTags">
+                  </a> <!-- TestListofTags -->
+                  <span class="method-name">TestListofTags</span>
+                  <em>
+(TestListofTags)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+          <div class="suite-BackBase-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.assignment.Home.HomeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestListofTags">
+                  </a> <!-- TestListofTags -->
+                  <span class="method-name">TestListofTags</span>
+                  <em>
+(TestListofTags)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestListofarticles">
+                  </a> <!-- TestListofarticles -->
+                  <span class="method-name">TestListofarticles</span>
+                  <em>
+(TestListofArticles)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BackBase-class-passed -->
+        </div> <!-- panel BackBase -->
+        <div panel-name="test-xml-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AssignmentTest1.1\testngold.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BackBase&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.assignment.Listners.ExtentReporterNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestBackBase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.assignment.Home.HomeTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.Home.BaseUserinfoTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.article.ArticleTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.article.DeleteCommentTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.article.EditorTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.settings.SettingsTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.assignment.Home.ListofArticleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestBackBase --&gt;
+&lt;/suite&gt; &lt;!-- BackBase --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BackBase</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestBackBase (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BackBase</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BackBase</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BackBase');
+function tableData_BackBase() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestDeletecomment')
+data.setCell(0, 2, 'com.qa.assignment.article.DeleteCommentTest')
+data.setCell(0, 3, 33929);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestEditor')
+data.setCell(1, 2, 'com.qa.assignment.article.EditorTest')
+data.setCell(1, 3, 31134);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestCreateAtrticle')
+data.setCell(2, 2, 'com.qa.assignment.article.ArticleTest')
+data.setCell(2, 3, 31105);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestListofTags')
+data.setCell(3, 2, 'com.qa.assignment.Home.HomeTest')
+data.setCell(3, 3, 22239);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestListofArticles')
+data.setCell(4, 2, 'com.qa.assignment.Home.ListofArticleTest')
+data.setCell(4, 3, 17916);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestPagenation')
+data.setCell(5, 2, 'com.qa.assignment.Home.ListofArticleTest')
+data.setCell(5, 3, 16147);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestListofTags')
+data.setCell(6, 2, 'com.qa.assignment.Home.BaseUserinfoTest')
+data.setCell(6, 3, 15897);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestSettings')
+data.setCell(7, 2, 'com.qa.assignment.settings.SettingsTest')
+data.setCell(7, 3, 15479);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestListofarticles')
+data.setCell(8, 2, 'com.qa.assignment.Home.HomeTest')
+data.setCell(8, 3, 749);
+window.suiteTableData['BackBase']= { tableData: data, tableDiv: 'times-div-BackBase'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-BackBase">
+              </div> <!-- times-div-BackBase -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BackBase</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BackBase" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.Home.HomeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestListofTags</span>
+                <span class="method-start">8405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">31283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestListofarticles</span>
+                <span class="method-start">35061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35811 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.Home.BaseUserinfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">36524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestListofTags</span>
+                <span class="method-start">40275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56174 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.article.ArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">57514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestCreateAtrticle(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                <span class="method-start">61407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92513 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.article.DeleteCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93213 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDeletecomment(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                <span class="method-start">97535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131466 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.article.EditorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">132211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestEditor(Education, Edycation system in India  , In india education system is very good , Education success)</span>
+                <span class="method-start">135970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167110 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.settings.SettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">167757 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestSettings</span>
+                <span class="method-start">171600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187080 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.assignment.Home.ListofArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">187663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestListofArticles</span>
+                <span class="method-start">191569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">209486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">210292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestPagenation</span>
+                <span class="method-start">214227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">230375 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
