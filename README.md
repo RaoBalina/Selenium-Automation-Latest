@@ -8,3 +8,6 @@
 
 Run the TestNG.XML file which contains all testcasess
 
+Frame work having logfile creation but not implemented in testcases level and also in the extent report level due to lack of time 
+if you want see the logfile  related script placed in the testbase file 
+
